@@ -1,0 +1,16 @@
+{
+  "name": "saucetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node first.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "saucectl": "^0.48.0",
+    "playwright": "^1.11.1"
+  }
+}

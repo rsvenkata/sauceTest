@@ -1,0 +1,50 @@
+Preparing npm environment
+Detected node_modules, running npm rebuilding.
+
+Rebuilding packages:
+
+Installing packages: playwright@1.11.1
+npm WARN saucetest@1.0.0 No description
+npm WARN saucetest@1.0.0 No repository field.
+
+OperationalError: Refusing to delete c:\chef\payload\__project__\node_modules\.bin\playwright: is outside c:\chef\payload\__project__\node_modules\playwright and not a link
+    at clobberFail (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:121:12)
+    at isSafeToRm (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:114:15)
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:54:5
+    at LOOP (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:180:7
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+    at _readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:215:28)
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+    at resolveSymlink (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:226:22)
+    at _readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:217:5)
+    at readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:212:3)
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:179:5
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+    at cb (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+    at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:153:16 {
+  cause: Error: Refusing to delete c:\chef\payload\__project__\node_modules\.bin\playwright: is outside c:\chef\payload\__project__\node_modules\playwright and not a link
+      at clobberFail (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:121:12)
+      at isSafeToRm (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:114:15)
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:54:5
+      at LOOP (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:180:7
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+      at _readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:215:28)
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+      at resolveSymlink (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:226:22)
+      at _readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:217:5)
+      at readAllLinks (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:212:3)
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:179:5
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\node_modules\iferr\index.js:13:50
+      at cb (D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+      at D:\sauce-playwright-runner\1.12.0\bundle\node_modules\npm\node_modules\gentle-fs\lib\rm.js:153:16 {
+    code: 'EEXIST',
+    path: 'c:\\chef\\payload\\__project__\\node_modules\\.bin\\playwright'
+  },
+  code: 'EEXIST',
+  path: 'c:\\chef\\payload\\__project__\\node_modules\\.bin\\playwright',
+  parent: '__project__'
+}
