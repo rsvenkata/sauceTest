@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node first.spec.js"
+    "test": "node test/first.spec.js"
   },
   "keywords": [],
   "author": "",
